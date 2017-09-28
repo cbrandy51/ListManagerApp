@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:text="@string/back"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:textColor="#999999"
+        android:id="@+id/back_button" />
+
+    <TextView
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:text="@string/list_text"
+        android:layout_weight="0.02"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="12sp"
+        android:textSize="18sp"
+        android:id="@+id/textView5" />
+
+    <EditText
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/list"
+        android:ems="10"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/item5"
+        style="@style/Widget.AppCompat.EditText"
+        android:selectAllOnFocus="true" />
+
+    <TextView
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:text="@string/first_item_text"
+        android:layout_weight="0.02"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="5sp"
+        android:textSize="18sp"
+        android:id="@+id/textView1" />
+
+    <EditText
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/name"
+        android:ems="10"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/item1"
+        style="@style/Widget.AppCompat.EditText"
+        android:selectAllOnFocus="true" />
+
+    <TextView
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="5sp"
+        android:id="@+id/textView2"
+        android:text="@string/second_item_text"
+        android:textSize="18sp"/>
+
+
+    <EditText
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/phone"
+        android:ems="10"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/item2"
+        style="@style/Widget.AppCompat.EditText"
+        android:selectAllOnFocus="true" />
+
+    <TextView
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="5sp"
+        android:id="@+id/textView3"
+        android:text="@string/third_item_text"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/apt"
+        android:ems="10"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/item3"
+        style="@style/Widget.AppCompat.EditText"
+        android:selectAllOnFocus="true" />
+
+    <TextView
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="5sp"
+        android:id="@+id/textView4"
+        android:text="@string/fourth_item_text"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/type"
+        android:ems="10"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:id="@+id/item4"
+        style="@style/Widget.AppCompat.EditText"
+        android:selectAllOnFocus="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:text="@string/save"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="15sp"
+            android:background="#00FF00"
+            android:id="@+id/save_button" />
+
+        <Button
+            android:text="@string/delete"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50sp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="15sp"
+            android:background="#FF2200"
+            android:id="@+id/delete_button" />
+
+    </LinearLayout>
+</LinearLayout>

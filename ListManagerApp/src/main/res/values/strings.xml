@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Project3_CB</string>
+    <string name="first_item_text">Name:</string>
+    <string name="second_item_text">Phone:</string>
+    <string name="third_item_text">Appointment:</string>
+    <string name="fourth_item_text">Type:</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="back">Back</string>
+    <string name="name">Ex: First Last</string>
+    <string name="phone">Ex: xxx-xxx-xxxx</string>
+    <string name="apt">Ex: mm/dd/yyyy</string>
+    <string name="type">Ex: Meeting</string>
+    <string name="query">Ex: TYPE</string>
+    <string name="query_button">Query</string>
+    <string name="query2">Ex: Meeting</string>
+    <string name="options_button">List Options</string>
+    <string name="list_name">Name of List</string>
+    <string name="list_text">Member of List:</string>
+    <string name="list">Ex: MAY</string>
+    <string name="create_list">Create List</string>
+    <string name="delete_list">Delete List</string>
+    <string name="create_name">Name Of Current List/Edit For New List:</string>
+    <string name="symbol2">&lt;</string>
+    <string name="symbol3">&gt;</string>
+    <string name="symbol1">+</string>
+</resources>
